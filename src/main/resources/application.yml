@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    include: secret
+
+  application:
+    name: back
+
+server:
+  port: 8090
